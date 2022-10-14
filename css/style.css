@@ -69,6 +69,7 @@
 }
 .div-nav-menu>ul>li>a{
     font-family: "Poppins",sans-serif;
+    color: black;
 }
 .div-nav-menu>ul>li>a>i{
     padding-left: 5px;
@@ -79,18 +80,53 @@
 }
 .div-nav-menu>ul>li>ul>li>a{
     font-family: "Poppins",sans-serif;
+    color: black;
 }
 .div-nav-menu>ul>li:hover >ul{
     transform: rotateX(0);   
 }
+.div-nav-menu>ul>li:hover>a{
+    color: #cc603b;   
+}
+.div-nav-menu>ul>li>ul>li:hover>a{
+    color: #cc603b;   
+}
+
 /* --------------------------main-1--------------------------- */
-.div-main-1-baground{
-    background-image: url('../image/background-image.webp');
-    background-size: cover;
-    background-position: bottom;
-    height: 580px;    
-    padding: 84px 75px;
+.main-1{
     position: relative;
+}
+.div-main-1-baground{
+    height: 725px;
+    width: 100%;    
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: -5;
+}
+.div-main-1-baground-el{
+    height: 110%;
+    width: 190%;
+    background-image: linear-gradient(90deg, #db190b, #dfb760);
+    border-radius: 0px 0px 120% 100%;
+    margin: 0 auto;
+    transform: translateX(-20%)
+    translateY(-10%)    
+}
+.div-main-1-bagroundBox{
+    padding: 84px 75px;
+    position: absolute;
+    
+}
+.test{
+    
+}
+.div-main-1-texbox{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 1140px;
+    padding-top: 120px;
 }
 #div-main-1-baground-h1-1{
     font-family: 'Outfit', sans-serif;
@@ -102,14 +138,15 @@
     font-size: 80px;
     color: white;
 }
-.div-main-1-baground>p{
+.div-main-1-texbox>p{
     font-family: "Poppins",sans-serif;
     color: white;
     width: 300px;
     line-height: 30px;
     position: relative;
+    margin: 20px 0;
 }
-.div-main-1-baground>a{
+.div-main-1-texbox>a{
     font-family: "Poppins",sans-serif;
     color: #ff3500;
     font-weight:bold;
@@ -117,16 +154,17 @@
     background-color: white;
     border-radius: 30px;
     position: absolute;
-    top: 380px;
+    top: 450px;
     transition: 0.5s;
 }
-.div-main-1-baground>img{
-    width: 750px;
+.div-main-1-texbox>img{
+    width: 940px;
     position: absolute;
-    top: 80px;
-    left: 380px;
+    top: 20px;
+    /* left: 680px; */
+    left: 300px;
 }
-.div-main-1-baground>a:hover{
+.div-main-1-texbox>a:hover{
     background-color: #ff3500;
     color: white;
 }
