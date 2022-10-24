@@ -152,7 +152,8 @@ nav>ul>li>ul>li:hover{
         left: -220px;
         top:80px;
         text-align: center;
-        font-size: 17px;   
+        font-size: 17px;
+        /* padding: 20px;     */
         background-color: white;     
     }
     .sandwich-menu>ul{
@@ -405,6 +406,12 @@ nav>ul>li>ul>li:hover{
     }
     .hov-text>p{
         line-height: 40px;
+    }
+    .br-cont-l>h3{
+        font-size:200%;
+    }
+    .br-cont-l>p{
+        font-size:150%;
     }
 }
 @media screen and (min-width:320px) and (max-width:480px) {
